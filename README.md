@@ -8,6 +8,7 @@ hwm-go-grpc-utils is a Go package that provides utility functions and tools for 
 - Examples
 - Contributing
 - License
+
 ## Installation
 To use this package in your Go project, you can install it using the go get command:
 
@@ -15,7 +16,7 @@ To use this package in your Go project, you can install it using the go get comm
 
 go get -u github.com/HiWay-Media/hwm-go-grpc-utils
 ```
-## Usage
+## Usage
 Import the package into your Go code to access the utility functions and tools:
 
 ```go
@@ -23,7 +24,7 @@ Import the package into your Go code to access the utility functions and tools:
 import "github.com/HiWay-Media/hwm-go-grpc-utils"
 ```
 
-## Examples
+## Examples
 Here's a simple example demonstrating how to use the package to achieve a specific task:
 
 ```go
@@ -38,8 +39,9 @@ import (
 func main() {
 	// Your code here using hwm-go-grpc-utils functions
 }
-``````
-## Contributing
+```
+
+## Contributing
 We welcome contributions! If you find a bug or have a feature request, please open an issue. If you want to contribute code, please fork the repository and submit a pull request.
 
 Before contributing, please read our Contributing Guidelines.
