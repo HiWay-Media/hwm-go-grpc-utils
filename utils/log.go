@@ -1,10 +1,12 @@
 package utils
 
 import (
-	"go.uber.org/zap"
-	"github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
-)
+	"context"
+	"fmt"
 
+	"github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+	"go.uber.org/zap"
+)
 
 func BaseInterceptorLogger(l *zap.Logger) logging.Logger {
 	return logging.LoggerFunc(func(ctx context.Context, lvl logging.Level, msg string, fields ...any) {
