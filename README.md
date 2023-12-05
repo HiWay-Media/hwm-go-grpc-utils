@@ -46,6 +46,6 @@ We welcome contributions! If you find a bug or have a feature request, please op
 
 Before contributing, please read our Contributing Guidelines.
 
-## License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
